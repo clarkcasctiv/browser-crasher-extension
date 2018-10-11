@@ -1,0 +1,1 @@
+## This extension tries to crash your browser. If it is not successful it will turn your tabs pink.
