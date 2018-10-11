@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "manifest_version": 2,
+  "name": "Browser Crasher",
+  "description": "Crashes Your Browser",
+  "author": "clarkcasctiv",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts  ": [
+      {
+          "matches": [
+              "<all_urls>"
+          ],
+          "js": ["js/jquery-3.3.1.min.js","js/scripts.js"]
+      }
+  ]
+}
